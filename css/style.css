@@ -260,8 +260,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot%3F') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg') format('svg');
+  src: url('/data/templates/prorealnost/template-wolfram/fonts/glyphicons-halflings-regular.eot');
+  src: url('/data/templates/prorealnost/template-wolfram/fonts/glyphicons-halflings-regular.eot%3F') format('embedded-opentype'), url('/data/templates/prorealnost/template-wolfram/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/data/templates/prorealnost/template-wolfram/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/data/templates/prorealnost/template-wolfram/fonts/glyphicons-halflings-regular.svg') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6689,7 +6689,7 @@ body {
   position: relative;
 }
 .bg-pattern {
-  background-image: url(../img/pattern_no.png);
+  background-image: url(/data/templates/prorealnost/template-wolfram/img/pattern_no.png);
   background-repeat: repeat;
   position: fixed;
   top: 0;
@@ -6699,10 +6699,10 @@ body {
   z-index: -1;
 }
 .bg-pattern_vertical {
-  background-image: url(../img/pattern_vertical.png);
+  background-image: url(/data/templates/prorealnost/template-wolfram/img/pattern_vertical.png);
 }
 .bg-pattern_horizontal {
-  background-image: url(../img/pattern_horizontal.png);
+  background-image: url(/data/templates/prorealnost/template-wolfram/img/pattern_horizontal.png);
 }
 .backstretch-carousel {
   position: fixed;
